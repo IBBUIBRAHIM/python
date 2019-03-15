@@ -2,3 +2,71 @@ https://github.com/Pierian-Data/Complete-Python-3-Bootcamp   (python 3)
 
 
 https://github.com/jmportilla/Complete-Python-Bootcamp(python 2)
+
+
+Name		Type		purpose
+integer	  	int	whole number :3 300 500 20
+Floating point	float         numbers with decimal point:2.3 4.6 100. 0
+Strings		str	ordered sequence of characters:"hello" 'sammy' "2000"
+Lists 		list	ordered sequence of objects:[10,"hello",20.03
+Dictionaries	dict	unordered key:Value pairs{"mykey":"value",  "name":"raja"
+Tuples		tup	ordered immuatble sequence of objects:(10,"hello",210.30)
+Sets		set	unordered collection if unique objects:{"a","b"}
+Booleans		bool	Logical value indicating true or False
+
+
+
+
+
+
+
+mystring="Hello World"
+print(mystring)
+print(mystring[0])
+print(mystring[4])
+print(mystring[-3])
+print(mystring[-1])
+print(mystring[9])
+
+
+print formatting  with string:
+-----------------------
+>>> print('the {} {} {}'.format('Harvey','Reginald','Specter'))
+the Harvey Reginald Specter
+>>> print('the {0} {2} {1}'.format('Harvey','Reginald','Specter'))
+the Harvey Specter Reginald
+>>> print('the {h} {r} {s}'.format(h='Harvey',r='Reginald',s='Specter'))
+the Harvey Reginald Specter
+>>> print('the {s} {r} {s}'.format(h='Harvey',r='Reginald',s='Specter'))
+the Specter Reginald Specter
+
+
+
+flaot formatting follows "{value:width.precision f}"
+value is result value
+width is white space 
+precesion how many digits after decimal should present
+
+>>> res=100/789
+>>> res
+0.1267427122940431
+>>> print('the result was {r:1.4f}'.format(r=res))
+the result was 0.1267
+
+
+name="jose"
+print(f'hello, his name is {name}')
+
+here f implicates the feature of format string.
+
+
+LiSTS:
+-----
+
+
+
+
+
+
+
+
